@@ -1,0 +1,15 @@
+Follow below steps to run the node project 
+
+Step 1. Install Dependencies
+Run the following command to install the required packages:
+npm install
+
+Step 2. Configure Database (optional, if not configured will not saved to DB but still process the clinicalData)
+Open the dbConfig.js file and update the  details with your PostgreSQL configurations.
+
+Step 3. Run the Project using below command
+npm start
+
+Step 4. Acess the API Endpoint
+The API to process & save clinical data is a POST request to the following endpoint:
+- http://localhost:3000/clinicalMetrics
